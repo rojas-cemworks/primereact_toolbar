@@ -1,0 +1,99 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.p-toolbar {
+  background: #fff;
+  border: 0px solid #fff;
+  padding: 1.25rem;
+  border-radius: 6px;
+  gap: 0.5rem;
+}
+
+.custom-fieldset .p-fieldset-legend {
+  color: #000000;
+  font-size: 1.2em;
+  background-color: #ffffff;
+  padding: 1px;
+  border: 0px solid #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.custom-fieldset .p-fieldset-content {
+  padding: 0px;
+}
+
+.custom-fieldset .p-toggleable-content {
+  padding: 1px;
+  font-size: 0.9em;
+  color: #333333;
+  background-color: #ffffff;
+  border: 0px solid #e0e0e0;
+}
+
+.custom-button {
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  margin-bottom: 7px;
+}
+
+.custom-button .pi {
+  font-size: 24px;
+  margin-right: 0px;
+}
+
+.custom-button .p-button {
+  margin-right: 0px;
+}
+
+.p-splitbutton {
+  display: -webkit-inline-box;
+  position: relative;
+}
+
+.p-splitbutton .p-splitbutton-defaultbutton {
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  margin-bottom: 7px;
+}
+
+.p-splitbutton .p-splitbutton-defaultbutton .pi {
+  font-size: 24px;
+  margin-right: 0px;
+}
+
+.p-splitbutton .p-splitbutton-menubutton {
+  width: 25px;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  display: table;
+}
